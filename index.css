@@ -1,0 +1,45 @@
+.car{
+    width:350px ;
+    height: 120px;
+    position: fixed;
+    bottom: 122px;
+    left: 490px;
+}
+
+.wheel1{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 115px;
+    left: 531px;
+    animation: wheel 1s linear infinite;
+
+}
+
+.wheel2{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom:115px ;
+    left: 754px;
+      animation: wheel 1s linear infinite; 
+}
+@keyframes wheel{
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+.sun{
+    width:200px ;
+    height: 200px;
+    position: fixed;
+    top: 20px;
+    left: 250px;
+    animation: sun 10s linear infinite;
+}
+@keyframes sun{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
